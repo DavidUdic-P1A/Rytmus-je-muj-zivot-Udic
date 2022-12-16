@@ -29,7 +29,7 @@ basic.forever(function () {
 
     const diff = Math.abs(interval - elapsed);
 
-    if (diff < 500) {
+    if (diff < 700) {
         basic.showLeds(`
         . # . # .
         . # . # .
